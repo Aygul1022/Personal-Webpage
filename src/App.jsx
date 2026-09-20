@@ -62,19 +62,6 @@ summary: (
         'Sales',
         'Finance',
       ],
-    },
-    {
-      date: '2025 - 2026',
-      title: 'Private Mathematics Tutor',
-      company:
-        'Self-Employed',
-      description: 
-      'Provide one-on-one support to middle and high school students during exam preparation. ',
-      tags: [
-        'Problem Solving',
-        'Mathematics',
-        'Tutoring',
-      ],
     }
 
   ],
@@ -226,9 +213,6 @@ function App() {
         </button>
 
         <nav className={`nav ${menuOpen ? 'open' : ''}`}>
-          <a href="#about" onClick={closeMenu}>
-            About
-          </a>
           <a href="#experience" onClick={closeMenu}>
             Experience
           </a>
@@ -288,16 +272,6 @@ function App() {
         </section>
 
         <div className="layout">
-          <section className="section reveal" id="about">
-            <div className="section-heading">
-              <div className="section-kicker">01 / About me</div>
-              <h2>About me</h2>
-            </div>
-
-            <div className="about-panel">
-              <p className="summary">{profile.summary}</p>
-            </div>
-          </section>
 
           <section className="section reveal" id="experience">
             <div className="section-heading">
